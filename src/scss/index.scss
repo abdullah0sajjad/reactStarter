@@ -1,0 +1,25 @@
+// @layer tailwind-base, primereact, tailwind-utilities;
+
+// @layer tailwind-base {
+//   @tailwind base;
+// }
+
+// @layer tailwind-utilities {
+//   @tailwind components;
+//   @tailwind utilities;
+// }
+
+@import "base/reset";
+
+@import "base/flag";
+
+@import "/node_modules/flag-icons/css/flag-icons.min.css";
+
+//prime react
+//theme
+@import "primereact/resources/themes/lara-light-indigo/theme.css";
+//core
+@import "primereact/resources/primereact.min.css";
+
+//icons
+@import "primeicons/primeicons.css";
